@@ -4,8 +4,8 @@
  * @LastEditors: gongyuqi@max-optics.com
  * @LastEditTime: 2022-12-07 10:21:11
  * @FilePath: /vue-components/vite.config.ts
- * @Description: 
- * 
+ * @Description:
+ *
  */
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
@@ -18,7 +18,11 @@ export default defineConfig({
     open: true
   },
 
-  plugins: [vue(), dts({ insertTypesEntry: true })],
+  plugins: [
+    vue(),
+
+    dts({ insertTypesEntry: true })
+  ],
 
   build: {
     lib: {
