@@ -1,11 +1,12 @@
 {
   "name": "vue-components",
   "private": true,
-  "version": "0.2.0",
+  "version": "0.3.0",
   "type": "module",
   "files": ["dist"],
   "main": "./dist/vue-components.umd.cjs",
   "module": "./dist/vue-components.js",
+  "types": "./dist/vue-components.d.ts",
   "exports": {
     ".": {
       "import": "./dist/vue-components.js",

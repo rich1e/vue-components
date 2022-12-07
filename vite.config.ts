@@ -2,7 +2,7 @@
  * @Author: gongyuqi@max-optics.com
  * @Date: 2022-12-07 09:36:36
  * @LastEditors: gongyuqi@max-optics.com
- * @LastEditTime: 2022-12-07 10:14:09
+ * @LastEditTime: 2022-12-07 10:21:11
  * @FilePath: /vue-components/vite.config.ts
  * @Description: 
  * 
@@ -18,7 +18,7 @@ export default defineConfig({
     open: true
   },
 
-  plugins: [vue(), dts()],
+  plugins: [vue(), dts({ insertTypesEntry: true })],
 
   build: {
     lib: {
